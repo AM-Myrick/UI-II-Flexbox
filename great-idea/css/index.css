@@ -115,6 +115,9 @@ header nav a:hover {
   vertical-align: top;
   border: 1px solid black;
   cursor: pointer;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
 }
 
 .cta .cta-text button:hover {
@@ -192,4 +195,30 @@ footer {
 .services .main-info .top-blurb {
   border-bottom: 1px solid black;
   padding-bottom: 20px;
+}
+
+.services .main-info .mid-content {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.services .main-info .mid-content .learn-more-box {
+  border: 1px solid black;
+  background-color: rgb(230, 230, 230);
+  width: 400px;
+  height: 190px;
+  margin: 10px 0px;
+  padding: 10px;
+}
+
+.services .main-info .mid-content .learn-more-box button {
+  margin-top: 20px;
+  background: white;
+  border: 1px solid black;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
 }
