@@ -66,7 +66,6 @@ h1, h2, h3, h4, h5 {
 
 .container {
   width: 880px;
-  border: 1px solid grey;
   margin: 0 auto;
 }
 
@@ -74,6 +73,7 @@ h1, h2, h3, h4, h5 {
 header {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 header nav {
@@ -95,8 +95,19 @@ header nav a:hover {
 
 /* cta */
 
+.cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid black;
+  padding-bottom: 40px;
+  height: 500px;
+}
+
 .cta .cta-text {
+  padding-top: 50px;
   font-size: 77px;
+  text-align: center;
 }
 
 .cta .cta-text button {
