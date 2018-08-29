@@ -132,36 +132,18 @@ header nav a:hover {
   margin-bottom: 30px;
 }
 
-.main-content .top-content .text-content {
-
-}
-
-.main-content .top-content .text-content:last-child {
-
-}
-
-.main-content .middle-img {
-
-}
-
 .main-content .bottom-content {
-
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0;
 }
 
 .main-content .bottom-content .text-content {
-
-}
-
-.main-content .bottom-content .text-content:last-child {
-
+  margin-right: 5px;
 }
 
 .contact {
   border-top: 1px solid black;
-
-}
-
-.contact p {
 
 }
 
