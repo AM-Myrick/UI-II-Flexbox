@@ -122,6 +122,8 @@ header nav a:hover {
   color: white;
 }
 
+/* .main-content */
+
 .main-content {
   margin-top: 30px;
 }
@@ -153,3 +155,38 @@ footer {
   font-size: 14px;
 }
 
+/* .services styles only */
+
+.services {
+  width: 880px;
+  margin: 0 auto;
+}
+
+.services header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.services header nav {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  align-items: flex-end;
+}
+
+.services header nav a {
+  font-size: 14px;
+  color: gray;
+  text-decoration: none;
+}
+
+.services header nav a:hover {
+  text-decoration: underline;
+}
+
+.services .services-header-img {
+  margin-bottom: 40px;
+}
+
+.services .main
