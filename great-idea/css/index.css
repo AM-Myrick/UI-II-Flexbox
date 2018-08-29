@@ -202,6 +202,8 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
 }
 
 .services .main-info .mid-content .learn-more-box {
@@ -222,3 +224,22 @@ footer {
   text-decoration: none;
   cursor: pointer;
 }
+
+.services .bottom-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.services .bottom-content .bottom-content-left {
+  margin-right: 50px;
+}
+
+.services .bottom-content .bottom-content-left ul {
+  list-style: disc inside;
+}
+
+.services .bottom-content .bottom-content-left ul li {
+  padding-bottom: 5px;
+}
+
